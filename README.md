@@ -17,20 +17,30 @@ End the program
 #Program to find the solution for the given linear equations.
 Developed by:Mohana K.V.S.L
 Register no:24900659
+#Program to find the solution for the given linear equations.
+#Developed by:
+#RegisterNumber:
 import numpy as np
 
-A = np.array([[1, -3], [3, 1]])  # Coefficient matrix
-B = np.array([0, 10])  # Constants on the right-hand side
+# Coefficients matrix A
+A = np.array([[1, -3],
+              [3,  1]])
 
+# Constants vector B
+B = np.array([0, 10])
+
+# Solve the system
 solution = np.linalg.solve(A, B)
 
+# Display the result as array
 print(solution)
 
 
 
 
 ## Output:
-![Screenshot (32)](https://github.com/user-attachments/assets/57a4a52a-3676-41b2-8d41-578d15f30073)
+
+![Screenshot 2025-05-16 192856](https://github.com/user-attachments/assets/dd32817b-0d04-42ca-a54b-5a883115b626)
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
