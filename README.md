@@ -17,9 +17,7 @@ End the program
 #Program to find the solution for the given linear equations.
 Developed by:Mohana K.V.S.L
 Register no:24900659
-#Program to find the solution for the given linear equations.
-#Developed by:
-#RegisterNumber:
+
 import numpy as np
 
 # Coefficients matrix A
