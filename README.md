@@ -22,14 +22,15 @@ End the program
 #RegisterNumber: 24900659
 
 import numpy as np
-
-A = np.array([[1, -3], [3, 1]]) # Coefficient matrix
-
-B = np.array([0, 10]) # Constants on the right-hand side
-
+A = np.array([[1, -3],
+              [3,  1]])
+B = np.array([0, 10])
 solution = np.linalg.solve(A, B)
-
 print(solution)
+
+
+
+
 
 
 
