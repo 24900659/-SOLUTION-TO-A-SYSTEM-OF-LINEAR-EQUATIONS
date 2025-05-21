@@ -23,7 +23,7 @@ End the program
 
 import numpy as np
 
-A = np.array([[1, -3],
+A = np.array([[1, -3], 
             [3,  1]])
               
 B = np.array([0, 10])
